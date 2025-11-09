@@ -55,9 +55,11 @@
 
       if (isCorrect) {
         result.innerHTML = "Correct! Dashboard unlocked.";
+        result.style.color ="";
         navLinks.style.display = "block";
       } else {
         result.innerHTML = "Incorrect. Try again!";
+        result.style.color = "red"; // Set text color to red for wrong answer
       }
     }
   </script>
